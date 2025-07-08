@@ -2,6 +2,10 @@
 
 A React Native (Expo Bare Workflow) project using **TypeScript**, **Bun**, **ESLint**, **Prettier**, and **Jest** fully structured and scalable.
 
+## Project Description
+
+Face Detection App with React Native using react-native-vision-camera and frame processor.
+
 ---
 
 ## Table of Contents
@@ -34,14 +38,14 @@ npm install -g expo-cli
 ### Clone the Repo
 
 ```bash
-git clone https://github.com/dainyjose/rn-expo-typescript-bare-template.git
-cd rn-expo-typescript-bare-template
+git clone https://github.com/dainyjose/face-detection-app.git
+cd face-detection-app
 ```
 
 **Renaming a project during cloning**
 
 ```bash
-git clone https://github.com/dainyjose/rn-expo-typescript-bare-template.git new-repo-name
+git clone https://github.com/dainyjose/face-detection-app.git new-repo-name
 cd new-repo-name
 ```
 
@@ -107,6 +111,8 @@ bun run test           # Run unit tests
 - **ESLint + Prettier** for linting and formatting
 - **React Navigation**
 - **Redux Toolkit** (optional)
+- **React Native Vision Camera**
+- **React Native Vision Camera Face Detector**
 
 ---
 
