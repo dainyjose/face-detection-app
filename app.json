@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "MyApp",
+    "name": "Face Detection App",
     "slug": "MyApp",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "plugins": ["react-native-vision-camera"]
   }
 }

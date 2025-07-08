@@ -8,22 +8,26 @@
     "ios": "bunx expo run:ios",
     "web": "bunx expo start --web",
     "test": "bunx jest",
-    "lint":"eslint src --ext .ts,.tsx",
-    "format":"prettier --write ."
+    "lint": "eslint src --ext .ts,.tsx",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.18",
     "@react-navigation/native-stack": "^6.11.0",
     "@reduxjs/toolkit": "^2.6.1",
+    "@shopify/react-native-skia": "1.5.0",
     "axios": "^1.8.4",
     "expo": "~52.0.43",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
     "react-native": "0.76.9",
     "react-native-gesture-handler": "^2.25.0",
-    "react-native-reanimated": "^3.17.2",
+    "react-native-reanimated": "^3.18.0",
     "react-native-safe-area-context": "^5.3.0",
     "react-native-screens": "^4.10.0",
+    "react-native-vision-camera": "4.6.4",
+    "react-native-vision-camera-face-detector": "1.7.2",
+    "react-native-worklets-core": "^1.6.0",
     "react-redux": "^9.1.2"
   },
   "devDependencies": {
