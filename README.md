@@ -1,66 +1,70 @@
-# MyApp
+# Face Detection App
 
-A React Native (Expo Bare Workflow) project using **TypeScript**, **Bun**, **ESLint**, **Prettier**, and **Jest** fully structured and scalable.
-
-## Project Description
-
-Face Detection App with React Native using react-native-vision-camera and frame processor.
+A React Native (Expo Bare Workflow) mobile app that uses **react-native-vision-camera** with frame processing to detect faces in real time. Built with TypeScript, Bun, ESLint, Prettier, and Jest for a robust developer experience and clean codebase.
 
 ---
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Scripts](#scripts)
-- [Tech Stack](#tech-stack)
-- [Linting & Formatting](#linting--formatting)
-- [Testing](#testing)
-- [Environment Variables](#environment-variables)
-- [Author](#author)
+- [Project Description](#project-description)  
+- [Getting Started](#getting-started)  
+- [Prerequisites](#prerequisites)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Project Structure](#project-structure)  
+- [Scripts](#scripts)  
+- [Tech Stack](#tech-stack)  
+- [Linting & Formatting](#linting--formatting)  
+- [Testing](#testing)  
+- [Environment Variables](#environment-variables)  
+- [Author](#author)  
+- [License](#license)
+
+---
+
+## Project Description
+
+This app lets users detect faces in real time using the device camera, via the `react-native-vision-camera` library with custom frame processors. Ideal for custom camera apps, AR, or security/face-recognition use cases.
 
 ---
 
 ## Getting Started
 
-### Prerequisites
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-- **Node.js** (only for installing Expo CLI globally)
-- **Bun** (v1.0+)
-- **Expo CLI** (for initializing and running projects)
+---
 
-### Install Expo CLI
+## Prerequisites
 
-```bash
-npm install -g expo-cli
-```
+- Node.js (for installing Expo CLI globally)  
+- Bun (v1.0+)  
+- Expo CLI  
+- Xcode / Android development environment if you want to test on iOS / Android devices or emulators  
 
-### Clone the Repo
+---
+
+## Installation
 
 ```bash
 git clone https://github.com/dainyjose/face-detection-app.git
 cd face-detection-app
 ```
 
-**Renaming a project during cloning**
-
-```bash
-git clone https://github.com/dainyjose/face-detection-app.git new-repo-name
-cd new-repo-name
-```
-
-### Install Dependencies
+## Usage
 
 ```bash
 bun install
 ```
-
-### Run the App
-
+To start the app:
 ```bash
-bun expo run:android   # For Android
-bun expo run:ios       # For iOS
-bun expo start         # Metro bundler
+# For Android
+bun expo run:android
+
+# For iOS
+bun expo run:ios
+
+# To just start the Metro bundler
+bun expo start
 ```
 
 ---
@@ -118,20 +122,10 @@ bun run test           # Run unit tests
 
 ## Linting & Formatting
 
-**Run ESLint:**
-
-```bash
-bun run lint
-```
-
-**Run Prettier:**
-
-```bash
-bun run format
-```
-
-Configured to ignore `node_modules`, `android/`, `ios/`, `build/`, etc.
-
+- Use ESLint to catch code style / errors
+- Prettier for consistent formatting
+- Certain folders/files are ignored (e.g. node_modules, android/, ios/, build outputs)
+  
 ---
 
 ## Testing
@@ -166,10 +160,6 @@ declare module '@env' {
 ```
 
 ---
-
-## 📖 Documentation
-
-For full setup instructions and details, check out the [Getting Started Guide](./GETTING_STARTED.md).
 
 ## 🧑‍💻 Author
 
